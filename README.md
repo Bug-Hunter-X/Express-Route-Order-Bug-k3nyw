@@ -1,0 +1,2 @@
+# Express Route Ordering Issue
+This repository demonstrates a common error in Express.js applications related to the order of route definitions. When defining routes, Express matches them sequentially. If a more specific route is defined after a more general route, the more general route will always be matched, even if the request matches the more specific route. This bug showcases that issue and its solution.
